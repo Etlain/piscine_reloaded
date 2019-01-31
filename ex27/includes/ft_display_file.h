@@ -6,7 +6,7 @@
 /*   By: mmouhssi <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/30 21:33:30 by mmouhssi          #+#    #+#             */
-/*   Updated: 2019/01/30 22:05:28 by mmouhssi         ###   ########.fr       */
+/*   Updated: 2019/01/31 17:44:17 by mmouhssi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,5 +17,6 @@
 
 void	ft_putstr(char *s);
 int		ft_strlen(char *s);
+void	ft_bzero(void *s, size_t n);
 
 #endif

@@ -1,35 +1,27 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   ft_bzero.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mmouhssi <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/01/30 20:00:01 by mmouhssi          #+#    #+#             */
-/*   Updated: 2019/01/31 17:47:46 by mmouhssi         ###   ########.fr       */
+/*   Created: 2015/11/24 10:08:40 by mmouhssi          #+#    #+#             */
+/*   Updated: 2019/01/31 17:43:17 by mmouhssi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/ft_display_file.h"
 
-int main(int argc, char **argv)
+void	ft_bzero(void *s, size_t n)
 {
-	int fd;
-	char buf[10];
+	unsigned char	*tab;
+	size_t			i;
 
-	if (argc == 2)
+	i = 0;
+	tab = (unsigned char*)s;
+	while (i < n)
 	{
-		fd = open(argv[1], O_RDONLY);
-		while (read(fd, buf, 9) > 0)
-		{
-			ft_putstr(buf);
-			ft_bzero(buf, 10);
-		}
-		close(fd);
+		tab[i] = 0;
+		i++;
 	}
-	else if (argc < 2)
-		ft_putstr("File name missing.\n");
-	else
-		ft_putstr("Too many arguments.\n");
-	return (0);
 }

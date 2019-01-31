@@ -12,7 +12,7 @@
 
 NAME = ft_display_file
 
-SRC =  srcs/main.c srcs/ft_putstr.c srcs/ft_strlen.c
+SRC =  srcs/main.c srcs/ft_putstr.c srcs/ft_strlen.c srcs/ft_bzero.c
 
 OBJ = $(SRC:.c=.o)
 
@@ -21,7 +21,7 @@ FLAGS = -Wall -Wextra -Werror
 all: $(NAME)
 
 $(NAME): $(OBJ)
-	gcc -o $(NAME) $(SRC)
+	gcc $(FLAGS) -o $(NAME) $(SRC)
 
 clean:
 	@rm -rf $(OBJ)
