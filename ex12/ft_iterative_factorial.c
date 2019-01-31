@@ -6,7 +6,7 @@
 /*   By: mmouhssi <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/12/10 11:36:14 by mmouhssi          #+#    #+#             */
-/*   Updated: 2019/01/27 23:03:17 by mmouhssi         ###   ########.fr       */
+/*   Updated: 2019/01/31 20:00:46 by mmouhssi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@ int	ft_iterative_factorial(int nb)
 	int i;
 
 	i = nb - 1;
-	if (nb < 0 && nb > 12)
+	if (nb < 0 || nb > 12)
 		return (0);
 	else if (nb == 1 || nb == 0)
 		return (1);
