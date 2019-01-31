@@ -6,11 +6,11 @@
 /*   By: mmouhssi <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/30 19:38:00 by mmouhssi          #+#    #+#             */
-/*   Updated: 2019/01/30 19:43:40 by mmouhssi         ###   ########.fr       */
+/*   Updated: 2019/01/31 18:49:31 by mmouhssi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_count_if(char **tab, int(*f)(char*))
+int	ft_count_if(char **tab, int (*f)(char*))
 {
 	int i;
 	int nbr;

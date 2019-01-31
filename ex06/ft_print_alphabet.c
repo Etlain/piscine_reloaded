@@ -6,13 +6,13 @@
 /*   By: mmouhssi <mmouhssi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/27 21:50:43 by mmouhssi          #+#    #+#             */
-/*   Updated: 2019/01/27 21:59:56 by mmouhssi         ###   ########.fr       */
+/*   Updated: 2019/01/31 19:19:41 by mmouhssi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void ft_putchar(char c);
+void	ft_putchar(char c);
 
-void ft_print_alphabet()
+void	ft_print_alphabet(void)
 {
 	char c;
 

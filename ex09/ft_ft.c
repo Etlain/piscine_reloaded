@@ -6,11 +6,11 @@
 /*   By: mmouhssi <mmouhssi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/27 22:15:02 by mmouhssi          #+#    #+#             */
-/*   Updated: 2019/01/27 22:17:32 by mmouhssi         ###   ########.fr       */
+/*   Updated: 2019/01/31 19:19:03 by mmouhssi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void ft_ft(int *nbr)
+void	ft_ft(int *nbr)
 {
 	*nbr = 42;
 }

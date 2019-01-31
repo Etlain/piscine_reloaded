@@ -6,13 +6,13 @@
 /*   By: mmouhssi <mmouhssi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/27 22:09:56 by mmouhssi          #+#    #+#             */
-/*   Updated: 2019/01/27 22:13:13 by mmouhssi         ###   ########.fr       */
+/*   Updated: 2019/01/31 19:17:59 by mmouhssi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void ft_putchar(char c);
+void	ft_putchar(char c);
 
-void ft_is_negative(int n)
+void	ft_is_negative(int n)
 {
 	if (n < 0)
 		ft_putchar('N');

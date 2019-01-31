@@ -6,7 +6,7 @@
 /*   By: mmouhssi <mmouhssi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/27 23:36:13 by mmouhssi          #+#    #+#             */
-/*   Updated: 2019/01/27 23:43:16 by mmouhssi         ###   ########.fr       */
+/*   Updated: 2019/01/31 19:16:58 by mmouhssi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ void	ft_putstr(char *str)
 	}
 }
 
-int	main(int argc, char **argv)
+int		main(int argc, char **argv)
 {
 	int i;
 

@@ -6,7 +6,7 @@
 /*   By: mmouhssi <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/30 17:15:09 by mmouhssi          #+#    #+#             */
-/*   Updated: 2019/01/30 17:58:01 by mmouhssi         ###   ########.fr       */
+/*   Updated: 2019/01/31 18:51:22 by mmouhssi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ void	ft_putstr(char *str)
 	}
 }
 
-int ft_strcmp(char *s1, char *s2)
+int		ft_strcmp(char *s1, char *s2)
 {
 	while (*s1 != '\0' && *s2 != '\0')
 	{
@@ -36,11 +36,11 @@ int ft_strcmp(char *s1, char *s2)
 	return (unsigned int)((unsigned char)*s1 - (unsigned char)*s2);
 }
 
-char **ft_sort_tab(char **tab)
+char	**ft_sort_tab(char **tab)
 {
-	int i;
-	int b;
-	char *tmp;
+	int		i;
+	int		b;
+	char	*tmp;
 
 	i = 0;
 	b = 1;
@@ -65,7 +65,7 @@ char **ft_sort_tab(char **tab)
 	return (tab);
 }
 
-int	main(int argc, char **argv)
+int		main(int argc, char **argv)
 {
 	char	**tab;
 	int		i;
@@ -76,7 +76,7 @@ int	main(int argc, char **argv)
 		tab = &argv[1];
 		tab = ft_sort_tab(tab);
 		while (i < argc - 1)
-		{	
+		{
 			ft_putstr(tab[i]);
 			ft_putchar('\n');
 			i++;

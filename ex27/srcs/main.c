@@ -6,16 +6,16 @@
 /*   By: mmouhssi <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/30 20:00:01 by mmouhssi          #+#    #+#             */
-/*   Updated: 2019/01/31 17:47:46 by mmouhssi         ###   ########.fr       */
+/*   Updated: 2019/01/31 19:20:14 by mmouhssi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/ft_display_file.h"
 
-int main(int argc, char **argv)
+int	main(int argc, char **argv)
 {
-	int fd;
-	char buf[10];
+	int		fd;
+	char	buf[10];
 
 	if (argc == 2)
 	{
